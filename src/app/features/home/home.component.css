@@ -1,0 +1,91 @@
+.home-container{
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.welcome-section{
+    background-color: #f5f9ff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.welcome-section h1{
+    color: #0d6efd;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.welcome-section p{
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.features-section{
+    margin-bottom: 30px;
+}
+
+.features-section h2{
+    color:#0d6efd;
+    font-size: 2rem;
+}
+
+.feature-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card{
+    background-color: #e3f2fd;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.services-section{
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.services-section h2{
+    color: #0d6efd;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.services-section p{
+    color: #555;
+    font-size: 1rem;
+}
+
+.services-section .btn{
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 15px;
+}
+
+.services-section .btn:hover{
+    background-color: #0b5ed7;
+}

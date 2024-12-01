@@ -1,0 +1,39 @@
+<div class="profile-container" >
+    <h2>User Profile</h2>
+
+
+<div class="profile-info">
+    <p> <strong> Customer ID : {{customerId}}</strong> </p>  
+    <p> <strong> Full Name : {{userProfile.fullName}}</strong></p>
+    <p> <strong> Email : {{userProfile.email}}</strong></p>
+    <p> <strong> phone : {{userProfile.phone}}</strong></p>
+    <p> <strong> Address : {{userProfile.address}} </strong></p>
+    <p> <strong> KYC Status :  {{ userProfile.kycStatus }}</strong></p>  
+</div>
+
+<form [formGroup] = "profileform" (ngSubmit)="onSubmit()">
+    <label for="phone"> Phone number </label>
+    <input type="text" id="phone"  formControlName="phone">
+    <label for address> Address </label>
+    <input type="text" id="address" formControlName="address">
+
+    <button type="submit" [disabled]="profileform.invalid">Update Profile</button>
+</form>
+
+
+<!-- Document upload Section -->
+
+<div class="document-section">
+    <h3> upload documents </h3>
+    <ul> 
+        <li *ngFor="let doc of userDocuments">{{ doc.name }} - <a (click)="viewDocument(doc)"> display </a> </li>
+    </ul>
+</div>
+
+<div class="activity-log">
+    <h3> Recent Activities</h3>
+    <ul>
+        <li *ngFor = "let log of activityLog"> {{log.timestamp}} - {{log.action}}</li>
+    </ul>
+</div>
+</div>

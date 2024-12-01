@@ -1,0 +1,53 @@
+.profile-container{
+
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    
+}
+
+.profile-info , .document-section , .activity-log{
+   margin-top: 20px;
+   border:1px solid #1a75fd;
+   padding: 10px;
+   border-radius: 5px;
+   background-color:  #e3f2f9 ;
+}
+
+h2, h3 {
+    color: #333;
+  }
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100% ;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    margin-top: 15px;
+    padding:8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border:none;
+    border-radius : 4px;
+    cursor: pointer;
+}
+
+button[disabled]{
+    background-color: #999;
+}
+
+.activity-log , .document-section{
+ padding-left: 20pX;
+ list-style: none;
+}

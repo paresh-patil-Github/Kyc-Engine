@@ -1,0 +1,37 @@
+.home-cpntainer{
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#test{
+    border-radius: 8px;
+    background-color:#f5f9ff;
+    padding: 50px;
+    border-radius: 8px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+
+}
+
+.reports-section{
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.card{
+    max-width:1000px;
+    transition: transform 0.2s ;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1);
+}
+.card:hover{
+    transform: translateY(-5px);
+
+}
